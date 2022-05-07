@@ -1,0 +1,99 @@
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #042240;
+    padding: 15px;
+    }
+    
+    
+    .navbar a{
+        text-decoration: none;
+        color: inherit;
+    }
+    .logo #logoAp{ 
+        height: 50px;
+    }
+    
+    .list {
+        list-style: none;
+        display: flex;
+        gap: 25px;
+    }
+    
+    
+    /*-----*/
+    .list #login{
+        height: 35px;
+    }
+    .list #insta {
+        height: 30px;
+    }
+    .list #twetter{
+        height: 30px;
+    }
+    .list #linkedin{
+        height: 30px;
+    }
+    .banner{
+        display: flex;
+    }
+    #imagen {/*--foto del banner---*/
+        width: 100%;
+        height: 600px;
+    
+    }
+    
+    /**acerca de**/
+    
+    .row {
+        display: flex; 
+     }
+    
+    
+     aside{/*flex derecho*/
+       flex: 50px;
+      background-color: grey;
+       padding: 20px;
+     }
+     section{/*flex izquierdo*/
+       flex: 50%;
+       background-color:greenyellow;
+       padding: 20px;
+     }
+     .row img {/*png del avatar*/
+       background-color: #042240;
+       padding: 0;
+       position: relative;
+       width: 200px;
+       border-radius: 150px;
+       border: 2px solid blue;
+       left: 20%;
+       bottom: 20%;
+     }
+     .date {/*txt izquierdo*/
+     position:relative;
+     color: blue;
+     font-size: 30px;
+     margin: 0%;
+     text-decoration: none;
+     text-align: center;
+     bottom: 20%;
+     }
+     .about-text {/*txt derecho*/
+       position:relative;
+        color: blue;
+        font-size: 30px;
+        margin: 0%;
+        text-decoration: none;
+        text-align:left;
+        top: 2%;
+       } 
+      #ico-edit-uno {
+        width: 30px;
+        border: none;
+        position: relative;
+        left: 300px;
+      }
+    
