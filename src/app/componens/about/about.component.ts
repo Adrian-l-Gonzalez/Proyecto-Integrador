@@ -7,12 +7,16 @@ import {MiservicioService} from './../../miservicio.service';
   styleUrls: ['./about.component.css']
 })
 export class AboutComponent implements OnInit {
-
-  constructor( private _servicio:MiservicioService) {
+    miportfolio:any;
+  constructor( private datosportfolio:MiservicioService) {
     
   } 
     
   ngOnInit(): void {
+    this.datosportfolio.obtenerDatos().subscribe(data=>{
+      console.log(data);
+      this.miportfolio=data;
+    });
   }
   
 }
