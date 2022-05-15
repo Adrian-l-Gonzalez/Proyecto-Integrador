@@ -1,80 +1,41 @@
-.row {
-    display: flex; 
- }
 
+#about {
+	background: #f8f9fa;
+	padding:20px 0;
 
- aside{/*flex derecho*/
-   flex: 50px;
-  background-color: grey;
-   padding: 20px;
- }
- section{/*flex izquierdo*/
-   flex: 50%;
-   background-color:greenyellow;
-   padding: 20px;
- }
- .row img {/*png del avatar*/
-   background-color: #042240;
-   padding: 0;
-   position: relative;
-   width: 200px;
-   border-radius: 150px;
-   border: 2px solid blue;
-   left: 20%;
-   bottom: 20%;
- }
- .date {/*txt izquierdo*/
- position:relative;
- color: blue;
- font-size: 30px;
- margin: 0%;
- text-decoration: none;
- text-align: center;
- bottom: 20%;
- }
- .about-text {/*txt derecho*/
-   position:relative;
-    color: blue;
-    font-size: 30px;
-    margin: 0%;
-    text-decoration: none;
-    text-align:left;
-    top: 2%;
-   } 
-  #ico-edit-uno {
-    width: 30px;
-    border: none;
-    position: relative;
-    left: 300px;
-  }
+}
 
-  @media (max-width:992px) {
-    .row img {
-        left: 10%;
-   bottom: 20%;}
-   #ico-edit-uno{
-    left: 200px;
-    bottom: 10%;
-    }}
-    @media (max-width:768px) {
-        .row img {
-    left: 5%;
-    bottom: 20px;
-    }
-    .date{
-        bottom: 15%;
-    }
+#about h2 {
+	padding-bottom: 50px;
+  font-size: 2rem;
 }
-@media (max-width:600px) {
-    .row img {
-left: 5%;
-bottom: 60px;
+#about h4 {/*--nombre---*/
+	padding-bottom: 20px;
+  font-size: 2rem;
 }
-.date{
-    bottom: 10%;
+
+p {
+	font-size: 1rem;
+	margin: 10px 0;
+	line-height: 1.7em;
 }
-#ico-edit-uno{
-    width: 20px;
-    left: 200px;
-    bottom: 0%;
-    }}
+
+.large {/*--posicion---*/
+	font-size: 1.25rem;
+}
+.about-row {
+	display: flex;
+}
+
+.about-row-image img {/*--foto del avatar---*/
+	height: 20rem;
+	width: 20rem;
+	border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+	padding-right: 90px;
+}
+
+#about hr {/*--linea tal vez cambiar color---*/
+	width: 70%;
+	margin-bottom: 40px;
+    color:#042240
+}

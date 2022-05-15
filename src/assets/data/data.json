@@ -1,5 +1,12 @@
 {
-    "name":"Adrian González",
+   "name":"Adrian González",
     "position":"Full Stack Develloper",
-    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, eum similique quis tempore quo distinctio nemo aut odio minus dolorum sequi eveniet harum. Unde facere delectus expedita accusamus nostrum dicta."
+    "description_a":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, eum similique quis tempore quo distinctio nemo aut odio minus dolorum sequi eveniet harum. Unde facere delectus expedita accusamus nostrum dicta.",
+    "description_b":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, eum similique quis tempore quo distinctio nemo aut odio minus dolorum sequi eveniet harum. Unde facere delectus expedita accusamus nostrum dicta.",
+    "img_avatar":"./../../../assets/avatar1564639344.png",
+
+    "work_img":"./../../../assets/prosegur.jpg",
+    "works_year":"2020"
 }
+
+

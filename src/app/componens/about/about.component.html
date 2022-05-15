@@ -1,15 +1,21 @@
-<div class="row">
-    <aside>
-       <a href="#"><img src="./../../../assets/cam.png" id="ico-edit-uno"></a>
-       <img src="./../../../assets/avatar1564639344.png">
-    <div class="date">
-       <p><b>{{miportfolio.name}}</b></p>
-       <p>{{miportfolio.position}}</p>
-    </div>
-    </aside>
-    <section>
-        <div class="about-text">
-            <p><b>About me</b></p>
-            <p>{{miportfolio.description}}</p>
-         </div>
-    </section>
+<div id="about">
+   <div class="container">
+       <h2>About</h2>
+       <div class="about-row">
+           <div class="about-row-image">
+               <img [src]="miportfolio.img_avatar" alt="" />
+           </div>
+           <div class="about-row-text">
+               <h4>{{miportfolio.name}}</h4>
+               <p class="large">{{miportfolio.position}}</p>
+               <hr />
+               <p>
+                   {{miportfolio.description_a}}
+               </p>
+               <p>
+                  {{miportfolio.description_b}}
+               </p>
+           </div>
+       </div>
+   </div>
+</div>
