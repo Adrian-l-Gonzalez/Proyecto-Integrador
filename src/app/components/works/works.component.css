@@ -1,0 +1,48 @@
+.lista li {
+	display:flex;
+	flex-wrap: wrap;
+	padding: auto;
+	align-items: center;
+	
+	
+}
+
+.lista h4 {/*nmbre del lugar*/
+	display:block;
+	position: relative;
+	left: 500px;
+	
+	padding: 10px;
+
+  
+	
+	
+}
+
+
+.lista #N-title
+	/*flex: none;
+	position: relative;
+  text-align: right;
+  top: 30px;
+ */
+
+
+.lista  p span {  /*Perido laboral*/
+	
+	background: #c4c4c4;
+	color: #fff;
+	padding: 10px 30px;
+	border-radius: 20px;
+	position: relative;
+	left: 500px;
+	
+}
+
+.lista #escu {/*img*/
+	position: relative;
+	left: 400px;
+	
+}
+
+

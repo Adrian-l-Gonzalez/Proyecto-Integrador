@@ -7,12 +7,18 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { AboutComponent } from './componens/about/about.component';
 import { HttpClientModule} from '@angular/common/http';
+import { WorksComponent } from './components/works/works.component';
+import { EducationComponent } from './components/education/education.component';
+import { SkillsComponent } from './components/skills/skills.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    AboutComponent
+    AboutComponent,
+    WorksComponent,
+    EducationComponent,
+    SkillsComponent
   
   ],
   imports: [

@@ -1,12 +1,38 @@
 {
-   "name":"Adrian González",
-    "position":"Full Stack Develloper",
-    "description_a":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, eum similique quis tempore quo distinctio nemo aut odio minus dolorum sequi eveniet harum. Unde facere delectus expedita accusamus nostrum dicta.",
-    "description_b":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, eum similique quis tempore quo distinctio nemo aut odio minus dolorum sequi eveniet harum. Unde facere delectus expedita accusamus nostrum dicta.",
-    "img_avatar":"./../../../assets/avatar1564639344.png",
+ "name":"Adrian Gonzalez",
+ "position":"Full Stack Develloper",
+ "avatar":"./../../../assets/avatar1564639344.png",
+ "description_a":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, eum similique quis tempore quo distinctio nemo aut odio minus dolorum sequi eveniet harum.",
+ "description_b":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, eum similique quis tempore quo distinctio nemo aut odio minus dolorum sequi eveniet harum.",  
+ 
+ "works" :[ 
 
-    "work_img":"./../../../assets/prosegur.jpg",
-    "works_year":"2020"
+      {"works_year":"1989", "company":"Prosegur Tecnologia", "tarea":"Seguridad de la Informacion", "work_img":"https://i.ibb.co/QNtT7wH/prosegur.jpg" },
+      {"works_year":"2020", "company":"Prosegur S.A",        "tarea":"Seguridad Corporativa ", "work_img":"https://i.ibb.co/QNtT7wH/prosegur.jpg" },
+      {"works_year":"2020", "company":"XIDEN ", "tarea":"Seguridad de la Informacion", "work_img":"https://i.ibb.co/QNtT7wH/prosegur.jpg" }
+     ],
+
+     "education":[{
+        "education_year":"1995-2000",
+         "instiute":"EES7",
+          "about_edu":"Escuela Secundaria",
+          "Img_edu":"https://i.ibb.co/WKBPK2C/1200px-Round-Landmark-School-Icon-Transparent-svg-002.png"
+        }
+      
+    ],
+    "skills":[
+      { "skill":"HTML", "%":"20" },
+      { "skill":"JavaScript", "%":"20" },
+      { "skill":"CSS", "%":"20" },
+      { "skill":"Github", "%":"20" },
+      { "skill":"Ingles", "%":"20" }
+     
+    ],
+
+"img_edu":"https://i.ibb.co/WKBPK2C/1200px-Round-Landmark-School-Icon-Transparent-svg-002.png"
+
+     
 }
+      
 
-
+  

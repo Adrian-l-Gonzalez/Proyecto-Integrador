@@ -1,0 +1,32 @@
+.lista li {
+	display: inline-flex;
+}
+
+.lista #year {/*year work*/
+	width: 30%;
+	text-align: right;
+	padding-right: 80px;
+	padding-top: 30px;
+}
+
+.lista #year p span {  /*company*/
+	
+	background: #c4c4c4;
+	color: #fff;
+	padding: 10px 30px;
+	border-radius: 20px;
+	position: relative;
+	left: 400px;
+}
+
+.lista #escu {/*img*/
+	position: relative;
+	left: 800%;
+	top:15px ;
+}
+
+.lista #cert {
+	position: relative;
+	top: 30px;
+	right: 80px;
+}
