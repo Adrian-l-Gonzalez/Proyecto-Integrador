@@ -10,6 +10,7 @@ import { HttpClientModule} from '@angular/common/http';
 import { WorksComponent } from './components/works/works.component';
 import { EducationComponent } from './components/education/education.component';
 import { SkillsComponent } from './components/skills/skills.component';
+import { NgCircleProgressModule } from 'ng-circle-progress';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { SkillsComponent } from './components/skills/skills.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    NgCircleProgressModule.forRoot({})
 
   ],
   providers: [
