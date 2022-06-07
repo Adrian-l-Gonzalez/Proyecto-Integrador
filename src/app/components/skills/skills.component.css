@@ -1,4 +1,50 @@
-.mi_circulo{
+.title {
+    padding: 10%;
+}
+
+.container{
+    padding: 10%;
     display: flex;
-    padding: 20px;
+    flex-wrap: wrap;
+    justify-items: center;
+}
+
+#item {
+    position: relative;
+    bottom: 15px;
+    right: 5%;
+    padding-right: 15px;
+}
+#item2 {
+    position: relative;
+    bottom: 15px;
+    right: 5%;
+}
+#item3 {
+    position: relative;
+    bottom: 15px;
+    right: 5%;
+}
+
+
+.worklist li{
+
+    list-style: none;
+	padding: 20px;
+}
+
+
+
+
+.first{
+    height: 20px;
+    width: 30%;
+    background: grey;
+    border-radius: 25px;
+}
+
+.second {
+    height: 20px;
+    background: #042240;
+    border-radius: 25px;
 }

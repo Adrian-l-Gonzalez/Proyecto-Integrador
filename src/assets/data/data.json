@@ -12,22 +12,22 @@
       {"works_year":"2020", "company":"XIDEN ", "tarea":"Seguridad de la Informacion", "work_img":"https://i.ibb.co/QNtT7wH/prosegur.jpg" }
      ],
 
-     "education":[{
-        "education_year":"1995-2000",
-         "instiute":"EES7",
-          "about_edu":"Escuela Secundaria",
-          "Img_edu":"https://i.ibb.co/WKBPK2C/1200px-Round-Landmark-School-Icon-Transparent-svg-002.png"
-        }
+     "education":[
+       {"education_year":"1995-2000", "institute":"EES7", "about_edu":"Escuela Secundaria", "Img_edu":"https://i.ibb.co/WKBPK2C/1200px-Round-Landmark-School-Icon-Transparent-svg-002.png"},
+       {"education_year":"1995-2000", "institute":"EES7", "about_edu":"Escuela Secundaria", "Img_edu":"https://i.ibb.co/WKBPK2C/1200px-Round-Landmark-School-Icon-Transparent-svg-002.png"}
+        ],
+
+    
+        
       
-    ],
-    "skills":[
-      { "skill":"HTML", "%":"20" },
-      { "skill":"JavaScript", "%":"20" },
-      { "skill":"CSS", "%":"20" },
-      { "skill":"Github", "%":"20" },
-      { "skill":"Ingles", "%":"20" }
-     
-    ],
+        "estilo":[
+          { "habilidad":"html" ,"width":"50"},
+          { "habilidad":"css" ,"width":"25"}
+
+        ]
+,
+
+
 
 "img_edu":"https://i.ibb.co/WKBPK2C/1200px-Round-Landmark-School-Icon-Transparent-svg-002.png"
 

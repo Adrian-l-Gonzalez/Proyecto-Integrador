@@ -1,48 +1,136 @@
-.lista li {
-	display:flex;
+.container{
+	padding: 10%;
+}
+
+
+.worklist li{
+
+    list-style: none;
+	padding: 20px;
+}
+
+
+.row2 {
+    display: flex; 
 	flex-wrap: wrap;
-	padding: auto;
-	align-items: center;
-	
-	
-}
+ }
 
-.lista h4 {/*nmbre del lugar*/
-	display:block;
-	position: relative;
-	left: 500px;
-	
-	padding: 10px;
 
+ .row2 aside{/*flex derecho*/
+   flex: 50px;
+ 
+ }
+ .row2 section{/*flex izquierdo*/
+   flex: 50%;
   
-	
-	
+ }
+
+ .row2 section h1 {
+	 position: relative;
+   padding: 0%;
+   left: 10%;
+ }
+ .row2 section p span {
+   position: relative;
+   font-size: 15px;
+  
+ color:#f5f5f5;
+  left: 10%;
 }
 
+.row2 section h4 {
+  position: relative;
+  padding-top: 2%;
+  left: 10%;
+  bottom: 15px;
+}
 
-.lista #N-title
-	/*flex: none;
-	position: relative;
-  text-align: right;
-  top: 30px;
- */
+.edit {
+  text-align: end;
+}
 
-
-.lista  p span {  /*Perido laboral*/
+ .row2 img {/*png del avatar*/
+  
+   padding: 0;
+   position: relative;
+  width: 100px;
+  left: 60%;
+  top: 50px;
+   
+  }
+  .about-text p span {  /*company*/
 	
-	background: #c4c4c4;
-	color: #fff;
+	background: #042240;
 	padding: 10px 30px;
 	border-radius: 20px;
 	position: relative;
-	left: 500px;
 	
 }
 
-.lista #escu {/*img*/
-	position: relative;
-	left: 400px;
-	
+  @media only screen and (max-width: 800px) {
+    .row2 img {
+      left: 40%;
+    }
+    .row2 section h1 {
+      font-size: 80%;
+    }
+    .row2 section h3 {
+      font-size: 80%;
+      top: 5px;
+    }
+    .row2 section h4 {
+      font-size: 80%;
+      bottom: 10px;
+    
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    .row2 {
+      display: flex;
+      display: block; 
+   }
+
+    p {
+	text-align: center;
+right: 30px;
+   }
+
+
+  .about-text p span {
+	  bottom: 40px;
+  }
+   
+
+   .row2 img {
+    left: 42%;
+  }
+  .row2 section h1 {
+    padding: 0%;
+    position: relative;
+    top: 20px;
+    left: 35%;
+  }
+  .row2 section h3 {
+    position: relative;
+   padding: 0%;
+  
+   left: 37%;
+   top: 20px;
+ }
+ 
+ .row2 section h4 {
+   position: relative;
+   padding: 0%;
+   
+  top: 15px;
+   left: 30%;
+
+ }
+.row2 section h4 {
+flex-wrap: wrap;
 }
 
 
+
+    }
