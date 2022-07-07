@@ -1,42 +1,30 @@
 .title {
-    padding: 10%;
+    padding: 5%;
+   
+
 }
 
-.container{
-    padding: 10%;
+.container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.barra {
     display: flex;
     flex-wrap: wrap;
-    justify-items: center;
-}
-
-#item {
-    position: relative;
-    bottom: 15px;
-    right: 5%;
-    padding-right: 15px;
-}
-#item2 {
-    position: relative;
-    bottom: 15px;
-    right: 5%;
-}
-#item3 {
-    position: relative;
-    bottom: 15px;
-    right: 5%;
+    align-items: center;
 }
 
 
-.worklist li{
-
+.worklist li {
     list-style: none;
-	padding: 20px;
+    padding: 20px;
 }
 
 
 
 
-.first{
+.first {
     height: 20px;
     width: 30%;
     background: grey;
@@ -47,4 +35,36 @@
     height: 20px;
     background: #042240;
     border-radius: 25px;
+}
+
+#item{
+    margin-right: 10%;
+}
+
+#item2{
+    margin-right: 5%;
+}
+
+
+
+.fila {
+
+    display: flex;
+
+}
+
+li {
+    list-style: none;
+}
+
+.fila aside {
+    flex: 50px;
+}
+
+.fila section {
+    flex: 50%;
+}
+
+.container h1{
+    font-size: 30px;
 }

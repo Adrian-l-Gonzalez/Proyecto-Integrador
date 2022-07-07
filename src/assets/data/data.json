@@ -1,38 +1,63 @@
 {
- "name":"Adrian Gonzalez",
- "position":"Full Stack Develloper",
- "avatar":"./../../../assets/avatar1564639344.png",
- "description_a":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, eum similique quis tempore quo distinctio nemo aut odio minus dolorum sequi eveniet harum.",
- "description_b":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, eum similique quis tempore quo distinctio nemo aut odio minus dolorum sequi eveniet harum.",  
- 
- "works" :[ 
-
-      {"works_year":"1989", "company":"Prosegur Tecnologia", "tarea":"Seguridad de la Informacion", "work_img":"https://i.ibb.co/QNtT7wH/prosegur.jpg" },
-      {"works_year":"2020", "company":"Prosegur S.A",        "tarea":"Seguridad Corporativa ", "work_img":"https://i.ibb.co/QNtT7wH/prosegur.jpg" },
-      {"works_year":"2020", "company":"XIDEN ", "tarea":"Seguridad de la Informacion", "work_img":"https://i.ibb.co/QNtT7wH/prosegur.jpg" }
-     ],
-
-     "education":[
-       {"education_year":"1995-2000", "institute":"EES7", "about_edu":"Escuela Secundaria", "Img_edu":"https://i.ibb.co/WKBPK2C/1200px-Round-Landmark-School-Icon-Transparent-svg-002.png"},
-       {"education_year":"1995-2000", "institute":"EES7", "about_edu":"Escuela Secundaria", "Img_edu":"https://i.ibb.co/WKBPK2C/1200px-Round-Landmark-School-Icon-Transparent-svg-002.png"}
-        ],
-
-    
-        
-      
-        "estilo":[
-          { "habilidad":"html" ,"width":"50"},
-          { "habilidad":"css" ,"width":"25"}
-
-        ]
-,
-
-
-
-"img_edu":"https://i.ibb.co/WKBPK2C/1200px-Round-Landmark-School-Icon-Transparent-svg-002.png"
-
-     
+  "name": "Adrian Gonzalez",
+  "position": "Full Stack Develloper",
+  "avatar": "https://i0.wp.com/folou.co/wp-content/uploads/2022/03/ELON-MUSK-PERFIL.jpg?w=1200&ssl=1",
+  "description_a": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, eum similique quis tempore quo distinctio nemo aut odio minus dolorum sequi eveniet harum.",
+  "description_b": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, eum similique quis tempore quo distinctio nemo aut odio minus dolorum sequi eveniet harum.",
+  "works": [
+    {
+      "works_year": "1989",
+      "company": "Prosegur Tecnologia",
+      "tarea": "Seguridad de la Informacion",
+      "work_img": "https://i.ibb.co/QNtT7wH/prosegur.jpg"
+    },
+    {
+      "works_year": "2020",
+      "company": "Prosegur S.A",
+      "tarea": "Seguridad Corporativa ",
+      "work_img": "https://i.ibb.co/QNtT7wH/prosegur.jpg"
+    },
+    {
+      "works_year": "2020",
+      "company": "XIDEN ",
+      "tarea": "Seguridad de la Informacion",
+      "work_img": "https://i.ibb.co/QNtT7wH/prosegur.jpg"
+    }
+  ],
+  "education": [
+    {
+      "education_year": "1995-2000",
+      "institute": "EES7",
+      "about_edu": "Escuela Secundaria",
+      "Img_edu": "https://i.ibb.co/WKBPK2C/1200px-Round-Landmark-School-Icon-Transparent-svg-002.png"
+    },
+    {
+      "education_year": "1995-2000",
+      "institute": "EES7",
+      "about_edu": "Escuela Secundaria",
+      "Img_edu": "https://i.ibb.co/WKBPK2C/1200px-Round-Landmark-School-Icon-Transparent-svg-002.png"
+    }
+  ],
+  "estilo": [
+    {
+      "habilidad": "html",
+      "width": "50"
+    },
+    {
+      "habilidad": "CSS",
+      "width": "25"
+    },
+    {
+      "habilidad": "Js",
+      "width": "70"
+    },
+    {
+      "habilidad": "GitHub",
+      "width": "30"
+    },
+    {
+      "habilidad": "Team Work",
+      "width": "60"
+    }
+  ]
 }
-      
-
-  

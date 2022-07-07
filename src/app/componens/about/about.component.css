@@ -1,13 +1,19 @@
-
+.title {
+	padding: 5%;
+   
+  }
+  
 #about {
 	background: #f8f9fa;
 	padding:20px 0;
+	display: flex;
 
 }
 
 #about h2 {
-	padding-bottom: 50px;
+	padding: 5%;
   font-size: 2rem;
+  text-align: left;
 }
 #about h4 {/*--nombre---*/
 	padding-bottom: 20px;
